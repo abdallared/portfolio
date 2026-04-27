@@ -57,6 +57,7 @@ export default function About() {
   const headingRef = useCascadingTextReveal();
   const labelRef = useSequentialCharacterReveal();
   const imageRef = useRef<HTMLDivElement>(null);
+  const imageSrc = `${import.meta.env.BASE_URL}images/me-portofolio.jpeg`;
 
   useEffect(() => {
     const el = imageRef.current;
@@ -147,7 +148,7 @@ export default function About() {
               }}
             >
               <img
-                src="/images/me-portofolio.jpeg"
+                src={imageSrc}
                 alt="Abdallah Ghamry"
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />
