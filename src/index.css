@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 4%;
+    --foreground: 30 12% 90%;
+    --card: 0 0% 8%;
+    --card-foreground: 30 12% 90%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 30 12% 90%;
+    --primary: 20 42% 55%;
+    --primary-foreground: 0 0% 4%;
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 30 12% 90%;
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 62%;
+    --accent: 20 42% 55%;
+    --accent-foreground: 0 0% 4%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 100% / 0.06;
+    --input: 0 0% 100% / 0.06;
+    --ring: 20 42% 55%;
+    --radius: 0.25rem;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0a0a0a;
+    color: #e8e4df;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@layer utilities {
+  .text-stone { color: #e8e4df; }
+  .text-ash { color: #9e9e9e; }
+  .text-copper { color: #c47d5b; }
+  .text-ice { color: #d4e3f0; }
+  .text-ice-muted { color: #a3b3c2; }
+  .bg-obsidian { background-color: #0a0a0a; }
+  .bg-deep { background-color: #141414; }
+  .bg-charcoal { background-color: #1a1a1a; }
+  .bg-copper-glow { background-color: rgba(196, 125, 91, 0.15); }
+  .border-dark { border-color: rgba(255, 255, 255, 0.06); }
+  .border-light { border-color: rgba(0, 0, 0, 0.08); }
+  .gradient-copper {
+    background: linear-gradient(135deg, #c47d5b 0%, #d4a07a 100%);
+  }
+}
