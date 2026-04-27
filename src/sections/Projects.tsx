@@ -6,7 +6,7 @@ const projects = [
     date: 'April 2026',
     description: 'Lightweight Retrieval-Augmented Generation (RAG) for local question-answering using embeddings and retrieval.',
     tags: ['RAG', 'NLP', 'Embeddings'],
-    image: '/images/project-mini-rag.png',
+    image: `${import.meta.env.BASE_URL}images/project-mini-rag.png`, 
     repo: 'https://github.com/abdallared/Mini_RAG-main',
   },
   {
@@ -14,7 +14,7 @@ const projects = [
     date: 'October 2025',
     description: 'Improved vehicle detection accuracy by 18% using YOLO and Faster R-CNN with transfer learning on pre-trained models.',
     tags: ['YOLO', 'Faster R-CNN', 'Transfer Learning'],
-    image: '/images/project-vehicle.jpg',
+    image: `${import.meta.env.BASE_URL}images/project-vehicle.jpg`, 
     repo: 'https://github.com/abdallared/Vehicle_Detection-finetuning-',
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     date: 'August 2024',
     description: 'Deep learning model generating descriptive captions with 90% accuracy using CNN-LSTM architecture and attention mechanisms.',
     tags: ['CNN', 'LSTM', 'ResNet', 'NLP'],
-    image: '/images/project-caption.jpg',
+    image: `${import.meta.env.BASE_URL}images/project-caption.jpg`, 
     repo: 'https://github.com/abdallared/Image_Caption_Generator',
   },
   {
@@ -30,7 +30,7 @@ const projects = [
     date: 'August 2024',
     description: 'Predictive classification model for vehicle insurance risk categorization with 94% precision and optimized feature selection.',
     tags: ['Classification', 'Risk Assessment'],
-    image: '/images/project-insurance.jpg',
+    image: `${import.meta.env.BASE_URL}images/project-insurance.jpg`, 
     repo: 'https://github.com/abdallared/car-insurance',
   },
   {
@@ -38,7 +38,7 @@ const projects = [
     date: 'May 2025',
     description: 'Linear regression model predicting car prices with a mean absolute error of less than $500 using engineered features.',
     tags: ['Linear Regression', 'ML'],
-    image: '/images/project-carprice.jpg',
+    image: `${import.meta.env.BASE_URL}images/project-carprice.jpg`, 
     repo: 'https://github.com/abdallared/car_price_prediction',
   },
 ];
