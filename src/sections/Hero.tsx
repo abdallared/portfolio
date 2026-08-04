@@ -18,7 +18,7 @@ export default function Hero() {
     if (!heading || !sub || !cta) return;
 
     // Split heading into characters grouped by word
-    const lines = ['AI Engineer.', 'Data Scientist.'];
+    const lines = ['Software Engineer.', 'Full Stack AI Engineer.'];
     heading.innerHTML = '';
 
     lines.forEach((line, lineIdx) => {
@@ -101,14 +101,14 @@ export default function Hero() {
           ref={headingRef}
           className="font-['Space_Grotesk'] font-bold"
           style={{
-            fontSize: 'clamp(4rem, 10vw, 8rem)',
-            lineHeight: 0.9,
+            fontSize: 'clamp(3.5rem, 8vw, 7rem)',
+            lineHeight: 0.95,
             letterSpacing: '-0.03em',
             color: '#e8e4df',
             textShadow: '0 2px 40px rgba(10, 10, 10, 0.8)',
           }}
         >
-          AI Engineer.<br />Data Scientist.
+          Software Engineer.<br />Full Stack AI Engineer.
         </h1>
 
         <p
@@ -118,11 +118,11 @@ export default function Hero() {
             fontSize: '0.9375rem',
             lineHeight: 1.6,
             color: '#9e9e9e',
-            maxWidth: '32rem',
+            maxWidth: '36rem',
             marginTop: '1.5rem',
           }}
         >
-          Building scalable ML solutions, intelligent NLP systems, and cloud-deployed AI that delivers measurable results.
+          Architecting end-to-end Generative AI pipelines, intelligent NLP systems, full-stack microservices, and production ML models deployed on AWS, Docker, & SageMaker.
         </p>
 
         <div ref={ctaRef} className="flex items-center pointer-events-auto" style={{ gap: '1rem', marginTop: '2rem' }}>

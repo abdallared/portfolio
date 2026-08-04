@@ -5,32 +5,32 @@ const achievements = [
   {
     icon: 'trophy',
     title: 'Top 1% on DataCamp',
-    description: 'Ranked in the top 1% among millions of learners worldwide on DataCamp\'s global leaderboard.',
+    description: 'Ranked in top 1% among millions of learners worldwide on DataCamp global leaderboard.',
     year: '2024',
   },
   {
     icon: 'code',
     title: 'ICPC Regional Competitor',
-    description: 'Competed in ICPC regional contests, solving complex problems and achieving top 10% ranking.',
-    year: 'Ongoing',
+    description: 'Competed in ICPC regional contests, solving complex algorithms & DP challenges in top 10%.',
+    year: 'Regional Contests',
   },
   {
     icon: 'award',
-    title: 'IEEExtreme 17.0 Participant',
-    description: 'Participated in IEEE\'s premier global programming competition, demonstrating problem-solving skills.',
+    title: 'IEEExtreme 17.0',
+    description: 'Participated in IEEE premier global 24-hour competitive programming challenge.',
     year: 'June 2024',
   },
   {
     icon: 'users',
-    title: 'HR Director & Technical Lead',
-    description: 'Leading teams and managing technical projects at ICPC ECU, demonstrating leadership skills.',
-    year: '2022 — Present',
+    title: 'HR & Technical Director',
+    description: 'Managed 25+ students and led technical curriculum at ICPC ECU with 30% improvement in engagement.',
+    year: 'Oct 2022 — Oct 2023',
   },
   {
     icon: 'target',
     title: 'Technical Director',
-    description: 'Technical Director at Microsoft Student Clubs — ECU, leading technical initiatives and projects.',
-    year: '2023 — Present',
+    description: 'Led technical initiatives, competitive programming prep, and workshops at Microsoft Student Clubs ECU.',
+    year: 'Sep 2023 — Sep 2024',
   },
 ] as const satisfies ReadonlyArray<{ icon: AchievementIconKey; title: string; description: string; year: string }>;
 

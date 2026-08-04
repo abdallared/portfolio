@@ -126,10 +126,10 @@ export default function About() {
 
             <div style={{ marginTop: '2rem' }} className="space-y-6">
               <p className="font-['Inter']" style={{ fontSize: '1rem', lineHeight: 1.65, color: '#9e9e9e' }}>
-                I'm Abdallah Ghamry, an AI Engineer and Data Scientist passionate about building innovative solutions that make a real impact. Currently pursuing my Bachelor's in Software Engineering at Egyptian Chinese University, I specialize in machine learning, deep learning, and natural language processing.
+                I'm Abdallah Ghamry, a Software Engineer and Full Stack AI Engineer passionate about building intelligent systems that scale. Currently pursuing my Bachelor's Degree in Software Engineering at Egyptian Chinese University (2022–2027), I specialize in Generative AI, Deep Learning, NLP, Big Data, and Cloud Architecture (AWS).
               </p>
               <p className="font-['Inter']" style={{ fontSize: '1rem', lineHeight: 1.65, color: '#9e9e9e' }}>
-                With hands-on experience developing scalable AI pipelines, optimizing ML models, and deploying solutions on cloud platforms, I bring both technical expertise and strong problem-solving skills to every project. I'm known for my adaptability, leadership, and ability to deliver results under pressure.
+                With hands-on experience at Hive Tech.ai, NTI, and Epsilon AI, I have engineered production RAG systems, fine-tuned vision & NLP models, and deployed MLOps pipelines handling 1,000+ req/min with up to 95% model reliability. I bring strong leadership from directing technical activities at ICPC ECU and Microsoft Student Clubs.
               </p>
             </div>
           </div>
@@ -157,9 +157,9 @@ export default function About() {
             {/* Stats */}
             <div className="grid grid-cols-3" style={{ marginTop: '1.5rem', gap: '1rem' }}>
               {[
-                { value: '15', suffix: '+', label: 'Projects' },
-                { value: '5', suffix: '+', label: 'Internships' },
-                { value: '94', suffix: '%', label: 'Best Accuracy' },
+                { value: '6', suffix: '+', label: 'Projects' },
+                { value: '6', suffix: '', label: 'AI & Data Roles' },
+                { value: '95', suffix: '%', label: 'Reliability' },
               ].map((stat) => (
                 <div key={stat.label} className="text-center">
                   <div
