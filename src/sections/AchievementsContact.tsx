@@ -53,6 +53,12 @@ const contactMethods = [
     value: 'linkedin.com/in/abdallahreda42',
     href: 'https://linkedin.com/in/abdallahreda42',
   },
+  {
+    icon: 'github',
+    label: 'GitHub',
+    value: 'github.com/abdallared',
+    href: 'https://github.com/abdallared',
+  },
 ] as const satisfies ReadonlyArray<{ icon: ContactIconKey; label: string; value: string; href: string }>;
 
 export default function AchievementsContact() {
@@ -151,7 +157,7 @@ export default function AchievementsContact() {
           {/* Contact cards */}
           <div
             ref={contactRef}
-            className="grid grid-cols-1 md:grid-cols-3"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4"
             style={{ gap: '1.5rem', marginBottom: '2rem' }}
           >
             {contactMethods.map((method) => (

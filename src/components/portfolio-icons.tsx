@@ -149,6 +149,7 @@ export const contactIcons = {
   mail: renderLucideIcon(Mail),
   phone: renderLucideIcon(Phone),
   linkedin: renderLucideIcon(Linkedin),
+  github: renderLucideIcon(Github),
 } as const;
 
 export type ContactIconKey = keyof typeof contactIcons;

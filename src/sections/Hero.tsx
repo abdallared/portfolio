@@ -190,7 +190,7 @@ export default function Hero() {
       >
         {[
           { label: 'LinkedIn', href: 'https://linkedin.com/in/abdallahreda42' },
-          { label: 'GitHub', href: '#' },
+          { label: 'GitHub', href: 'https://github.com/abdallared' },
           { label: 'Email', href: 'mailto:abdreada4444@gmail.com' },
         ].map((s) => (
           <a
