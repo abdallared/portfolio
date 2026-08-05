@@ -118,6 +118,15 @@ I’m currently pursuing a **Bachelor’s in Software Engineering** at Egyptian 
 
 ## Featured AI Projects
 
+### 🏥 Corporate Claims Management System
+Production-grade REST API for corporate health insurance claims management.
+
+- Clean Architecture & Domain-Driven Design
+- FastAPI, PostgreSQL (asyncpg + SQLAlchemy 2.0) & Alembic
+- Async background processing with Redis & Celery
+
+🔗 https://github.com/abdallared/Claims-Management
+
 ### 🎯 Mini RAG
 Lightweight Retrieval-Augmented Generation for local document Q&A.
 

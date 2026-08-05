@@ -2,6 +2,14 @@ import { useCascadingTextReveal, useSequentialCharacterReveal, useScrollReveal }
 
 const projects = [
   {
+    title: 'Corporate Claims Management System',
+    date: 'August 2026',
+    description: 'Production-grade REST API for corporate health insurance claims built with FastAPI, PostgreSQL (asyncpg + SQLAlchemy 2.0), Redis, Celery, Alembic, and Clean Architecture with JWT & RBAC.',
+    tags: ['FastAPI', 'PostgreSQL', 'Clean Architecture', 'Redis', 'Celery', 'Docker'],
+    image: `${import.meta.env.BASE_URL}images/project-claims.svg`,
+    repo: 'https://github.com/abdallared/Claims-Management',
+  },
+  {
     title: 'Mini RAG — Document Q&A System',
     date: 'April 2026',
     description: 'Retrieval-Augmented Generation system with a FastAPI backend for document chunking, embedding, and semantic search backed by PostgreSQL (pgvector) and Qdrant vector store with Streamlit frontend and Docker Compose.',
