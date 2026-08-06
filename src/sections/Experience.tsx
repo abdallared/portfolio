@@ -2,9 +2,31 @@ import { useFocusDrift, useSequentialCharacterReveal, useScrollReveal } from '..
 
 const experiences = [
   {
-    role: 'Artificial Intelligence Engineer',
-    company: 'Hive Tech.ai',
-    date: 'Sep 2025 — Apr 2026',
+    role: 'Computer Vision Intern',
+    company: 'Electro Pi',
+    date: 'May 2026 — Jul 2026',
+    location: 'Cairo, Egypt',
+    bullets: [
+      'Developed and optimized Computer Vision models using PyTorch, OpenCV, and YOLO for object detection, image classification, and real-time image processing tasks.',
+      'Built end-to-end Computer Vision inference pipelines and exposed trained models through FastAPI REST APIs, enabling scalable deployment and integration with backend applications.',
+      'Evaluated and optimized model performance through data augmentation, hyperparameter tuning, and transfer learning, improving inference accuracy, latency, and overall deployment efficiency.',
+    ],
+  },
+  {
+    role: 'AI Backend Engineer',
+    company: 'Hive Tech',
+    date: 'Nov 2025 — Apr 2026',
+    location: 'Cairo, Egypt',
+    bullets: [
+      'Developed and deployed AI-powered backend services using FastAPI, designing asynchronous RESTful APIs for model inference, document processing, authentication (JWT), and workflow automation.',
+      'Built and integrated Machine Learning and NLP models into production applications using PyTorch, Hugging Face, PostgreSQL, SQLAlchemy, Redis, and Docker, optimizing model performance through feature engineering and efficient data pipelines.',
+      'Designed scalable AI backend architectures with Celery, RabbitMQ, Alembic, and async FastAPI, enabling background task processing, database migrations, and reliable deployment of AI services.',
+    ],
+  },
+  {
+    role: 'AI Engineer',
+    company: 'Hive Tech',
+    date: 'Sep 2025 — Nov 2025',
     location: 'Cairo, Egypt',
     bullets: [
       'Improved machine learning model accuracy by 15% by implementing advanced algorithms and performing targeted feature engineering.',
@@ -12,53 +34,20 @@ const experiences = [
     ],
   },
   {
-    role: 'Cloud Services Management & AWS Intern',
+    role: 'AI, NLP, AWS Cloud & Big Data Intern',
     company: 'National Telecommunication Institute (NTI)',
-    date: 'July 2024 — August 2024',
+    date: 'Feb 2025 — Sep 2025',
     location: 'Cairo, Egypt',
     bullets: [
-      'Designed and architected scalable data pipelines and ML workflows on AWS, resulting in a 30% reduction in infrastructure costs and 40% faster data processing speeds.',
-      'Built and deployed production-ready NLP/ML models on AWS SageMaker, increasing model inference speed by 50% and handling over 1,000 requests per minute.',
-      'Automated model training and monitoring with AWS Lambda, CloudWatch, and Step Functions, improving training efficiency by 75% and cutting manual oversight by 90%.',
+      'Developed end-to-end AI/ML pipelines using FastAPI, building RESTful APIs for data preprocessing, model inference, and workflow automation while applying MLOps practices with MLflow.',
+      'Built and optimized Deep Learning and NLP solutions using PyTorch, TensorFlow, Hugging Face, NLTK, and spaCy, and deployed scalable machine learning workflows on AWS SageMaker and related cloud services.',
+      'Engineered large-scale data pipelines and ETL workflows with Apache Spark, Hadoop, Kafka, Hive, and SQL, enabling efficient processing and analysis of structured and unstructured datasets.',
     ],
   },
   {
-    role: 'Artificial Intelligence Intern',
-    company: 'National Telecommunication Institute (NTI)',
-    date: 'July 2024 — August 2024',
-    location: 'Cairo, Egypt',
-    bullets: [
-      'Engineered end-to-end Generative AI pipelines using GANs and Attention Models, leading to a 40% increase in content generation efficiency.',
-      'Developed and adjusted Deep Learning models and NLP systems that refined prediction accuracy by 15% and reduced model training time by 30%.',
-      'Orchestrated MLOps strategies with MLflow and Hugging Face, accelerating model deployment cycles by 50%.',
-    ],
-  },
-  {
-    role: 'NLP Intern',
-    company: 'National Telecommunication Institute (NTI)',
-    date: 'July 2024 — August 2024',
-    location: 'Cairo, Egypt',
-    bullets: [
-      'Cleaned and preprocessed a large-scale text dataset of over 100,000 documents using NLTK, spaCy, and Transformers, reducing data noise by 60% for more accurate model training.',
-      'Built and fine-tuned NLP models for sentiment analysis, text classification, and named entity recognition, achieving an average F1-score of 92%.',
-      'Evaluated model performance with precision, recall, and F1-score, ensuring a model reliability of over 95% across various use cases and reducing model error rates by 20%.',
-    ],
-  },
-  {
-    role: 'Big Data Associate Intern',
-    company: 'National Telecommunication Institute (NTI)',
-    date: 'July 2024 — August 2024',
-    location: 'Cairo, Egypt',
-    bullets: [
-      'Architected and maintained data pipelines using Hadoop, Spark, and Kafka to process terabytes of data daily, increasing data availability by 99%.',
-      'Modified ETL workflows for structured and unstructured data, which reduced data processing time by 60% and improved data quality by 35%.',
-      'Performed big data analysis using HDFS, Hive, and SQL on datasets of over 100 million records, providing key business insights that drove a 15% revenue increase.',
-    ],
-  },
-  {
-    role: 'Artificial Intelligence Intern',
-    company: 'Epsilon AI',
-    date: 'March 2024',
+    role: 'AI Intern',
+    company: 'Epsilon',
+    date: 'Mar 2024',
     location: 'Cairo, Egypt',
     bullets: [
       'Enhanced machine learning model accuracy by 15% through implementation of advanced algorithms and targeted feature engineering techniques.',

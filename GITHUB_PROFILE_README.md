@@ -143,7 +143,7 @@ Full-stack AI agent application featuring a Python backend, modern web frontend,
 - RESTful API design
 - LLM-powered autonomous interactions
 
-🔗 https://github.com/abdallared/Full-Stack-AI-Agent
+🔗 https://github.com/abdallared/full-stack-ai-agent-template-main/tree/main/full-stack-ai-agent-template-main
 
 ### 🚗 Vehicle Detection Fine-tuning
 Improved vehicle detection accuracy using YOLO + Faster R-CNN.

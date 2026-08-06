@@ -23,7 +23,7 @@ const projects = [
     description: 'Full-stack AI agent application featuring a Python backend, modern web frontend, RESTful APIs, modular software architecture, and LLM-powered workflows for intelligent user interactions.',
     tags: ['Python', 'LLM', 'AI Agent', 'Full-Stack', 'REST API'],
     image: `${import.meta.env.BASE_URL}images/project-ai-agent.png`,
-    repo: 'https://github.com/abdallared/Full-Stack-AI-Agent',
+    repo: 'https://github.com/abdallared/full-stack-ai-agent-template-main/tree/main/full-stack-ai-agent-template-main',
   },
   {
     title: 'Vehicle Detection Fine-Tuning',
